@@ -31,6 +31,5 @@ def htnews():
         df.to_csv('Top_News.csv', index = False)
     else: 
         print("Webpage Error: Please try again...") 
-    
         
 htnews()
